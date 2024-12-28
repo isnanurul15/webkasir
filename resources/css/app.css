@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahkan CSS kustom di sini */
+.menu-right {
+    position: absolute; /* Mengatur posisi absolut */
+    right: 20px;        /* Jarak dari sisi kanan */
+    top: 20px;          /* Jarak dari atas */
+}
+
+.menu-right ul {
+    list-style: none; /* Menghapus bullet point */
+    padding: 0;
+}
+
+.menu-right li {
+    display: inline-block; /* Menjadikan menu horizontal */
+    margin-left: 15px;     /* Jarak antar menu */
+}
+
+.menu-right a {
+    text-decoration: none; /* Hilangkan garis bawah pada link */
+    color: black;          /* Warna teks */
+    font-weight: bold;
+}
